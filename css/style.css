@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  background: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.card-hero img {
+  width: 100%;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  text-align: center;
+  margin: 30px 0;
+}
+.card-body .card-title {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+
+.card-body .card-text {
+  max-width: 80%;
+  color: hsl(224, 23%, 55%);
+  margin: auto;
+}
+
+.card-plan {
+  max-width: 90%;
+  padding: 20px;
+  margin: auto;
+  background-color: hsla(225, 100%, 94%, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-plan .plan {
+  position: relative;
+  left: -30px;
+}
+
+.card-plan .plan p:first-child {
+  color: black;
+  font-weight: 900;
+}
+
+.card-plan .plan p:nth-child(2) {
+  color: hsl(224, 23%, 55%);
+}
+
+.card-plan .action a {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.card-plan .action a:hover {
+  color: hsl(224, 23%, 55%);
+}
+.card-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.card-submit .btn-payment {
+  background-color: hsl(245, 75%, 52%);
+  width: 080%;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-submit .btn-payment:hover {
+  opacity: 0.5;
+}
+.card-submit .btn-cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.card-submit .btn-cancel:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+  .card {
+    width: 300px;
+  }
+  .card-plan .plan {
+    position: relative;
+    left: 0;
+  }
+}
