@@ -36,8 +36,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/enoxSutrisno/Order-summary-component)
-- Live Site URL: [Add live site URL here](https://enoxsutrisno.github.io/Order-summary-component/)
+- Solution URL: [Link code](https://github.com/enoxSutrisno/Order-summary-component)
+- Live Site URL: [live site URL](https://enoxsutrisno.github.io/Order-summary-component/)
 
 ## My process
 
